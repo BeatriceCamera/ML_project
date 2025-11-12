@@ -34,7 +34,13 @@ Model performance was assessed with **F1-score**, **Precision-Recall**, **Learni
 
 
 ## Final Consideration
-The model did not identify strong or well-defined patterns within the data, suggesting that there are no evident or systematic discriminations in the company structure.  Its moderate performance is therefore meaningful: it indicates that sensitive attributes are not significantly correlated with being a manager.  
+The model did not identify strong or well-defined patterns within the data, suggesting that there are no evident or systematic discriminations in the company structure.  Its moderate performance is therefore meaningful: it indicates that sensitive attributes are not significantly correlated with being a manager.
+
+### View the Full Notebook
+The complete notebook can be viewed interactively on **nbviewer**:
+
+[Open in nbviewer](https://nbviewer.org/github/BeatriceCamera/ML_project/blob/main/DEI_Fairness_Analysis.ipynb)
+
 
 
 **Author:** Beatrice Camera  
