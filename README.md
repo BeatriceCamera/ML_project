@@ -13,7 +13,7 @@ Machine Learning project using fairness-aware modeling and SHAP interpretability
 
 ## Overview
 This project analyzes fairness and bias in machine learning using a simulated Diversity, Equity, and Inclusion (DEI) dataset containing sensitive attributes (gender, ethnicity, disability, sexual orientation).  
-The goal is to predict managerial roles and evaluate whether sensitive features influence the model’s decisions — a proxy for potential systemic bias.
+The goal is to predict managerial roles and evaluate whether sensitive features influence the model’s decisions, a proxy for potential systemic bias.
 
 
 ## Methodology
@@ -28,7 +28,7 @@ A pipeline combining sampling, dimensionality reduction, and classification was 
 ## Evaluation
 Model performance was assessed with **F1-score**, **Precision-Recall**, **Learning Curve**, and **Confusion Matrix**.
 
-- F1-score ≈ **0.4** — moderate predictive strength.  
+- F1-score ≈ **0.4**: moderate predictive strength.  
 - **SHAP analysis** showed that *division* and *age* were most influential, while sensitive attributes contributed little to prediction.  
 - Indicates limited bias but potential structural imbalance in the dataset.
 
