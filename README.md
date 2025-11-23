@@ -28,7 +28,7 @@ A pipeline combining sampling, dimensionality reduction, and classification was 
 ## Evaluation
 Model performance was assessed with **F1-score**, **Precision-Recall**, **Learning Curve**, and **Confusion Matrix**.
 
-- F1-score ≈ **0.4**: moderate predictive strength.  
+- Moderate predictive strength.  
 - **SHAP analysis** showed that *division* and *age* were most influential, while sensitive attributes contributed little to prediction.  
 - Indicates limited bias but potential structural imbalance in the dataset.
 
